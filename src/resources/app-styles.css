@@ -1,0 +1,10 @@
+@namespace "http://www.w3.org/1999/xhtml";
+@namespace j "library://ns.apache.org/royale/jewel";
+
+.echartPieChart {
+	IBeadView: ClassReference("classes.org.apache.echarts.pieChart.beads.PieChartView");
+	IBeadModel: ClassReference("classes.org.apache.echarts.pieChart.beads.models.PieChartModel");
+	width: 100%;
+	height: 100%;
+	position: relative;
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<j:VGroup xmlns:fx="http://ns.adobe.com/mxml/2009"
+		 xmlns:j="library://ns.apache.org/royale/jewel" xmlns:pieChart="classes.org.apache.echarts.pieChart.*" xmlns:js="library://ns.apache.org/royale/basic"
+		 itemsVerticalAlign="itemsCentered">
+	<j:beads>
+		<js:ContainerDataBinding />
+	</j:beads>
+	<fx:Script>
+	<![CDATA[
+		private var dataSource:Array = [
+										{
+											name: 'Canada',
+											value: 7
+										}, 
+										{
+											name: 'USA',
+											value: 7
+										}, 
+										{
+											name: 'China',
+											value: 7
+										}, 
+										{
+											name: 'Brazil',
+											value: 6
+										}, 
+										{
+											name: 'Australia',
+											value: 5
+										}, 
+										{
+											name: 'India',
+											value: 2
+										}, 
+										{
+											name: 'Others',
+											value: 55
+										}];
+		 [Bindable]
+		 private var series:Array = [
+		 	{
+				data: dataSource,
+				radius: '60%',
+				center: ['50%', '50%'],
+				label: { formatter: "{c}" }
+			}
+		 ];
+		 
+		 [Bindable]
+		 private var options:Object = {
+		 	title: { text: 'Area of Countries', left: 'center' },
+			legend: { orient: 'vertical', right: 'right' }
+		 };
+	]]>
+</fx:Script>
+	<pieChart:PieChart options="{options}" series="{series}" width="700" height="500"/>
+</j:VGroup>

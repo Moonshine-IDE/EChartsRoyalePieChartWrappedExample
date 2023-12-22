@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <output>
+    <movie fps="60"/>
+    <movie height="600"/>
+    <movie version="32"/>
+    <movie background="#FFFFFF"/>
+    <movie path="bin-debug/EChartsRoyalePieChartWrapped.swf"/>
+    <movie disabled="False"/>
+    <movie input=""/>
+    <movie width="800"/>
+    <movie platform="Flash Player"/>
+  </output>
+  &lt;!-- Other classes to be compiled into your SWF --&gt;
+  <jsOutput>
+    <option path=""/>
+  </jsOutput>
+  <classpaths>
+    <class path="src"/>
+  </classpaths>
+  <moonshineResourcePaths></moonshineResourcePaths>
+  <moonshineNativeExtensionPaths></moonshineNativeExtensionPaths>
+  <build>
+    <option loadConfig=""/>
+    <option antBuildPath="build/build.xml"/>
+    <option useResourceBundleMetadata="True"/>
+    <option benchmark="False"/>
+    <option verboseStackTraces="False"/>
+    <option showBindingWarnings="True"/>
+    <option additional="-theme=${royalelib}/themes/JewelTheme/src/main/resources/defaults.css -html-template=src/resources/jewel-index-template.html"/>
+    <option staticLinkRSL="False"/>
+    <option showUnusedTypeSelectorWarnings="True"/>
+    <option locale=""/>
+    <option useNetwork="True"/>
+    <option allowSourcePathOverlap="False"/>
+    <option linkReport=""/>
+    <option strict="True"/>
+    <option showDeprecationWarnings="True"/>
+    <option warnings="True"/>
+    <option sourceMap="False"/>
+    <option customSDK=""/>
+    <option es="False"/>
+    <option showActionScriptWarnings="True"/>
+    <option optimize="False"/>
+    <option accessible="False"/>
+    <option compilerConstants=""/>
+  </build>
+  <mavenBuild>
+    <option dominoNotesProgram=""/>
+    <option dominoNotesPlatform=""/>
+    <option commandLine=""/>
+    <option mavenBuildPath="."/>
+    <option settingsFilePath=""/>
+    <actions>
+      <action action="install" actionName="Build"/>
+      <action action="clean package" actionName="Clean and package"/>
+      <action action="clean" actionName="Clean"/>
+      <action action="clean install" actionName="Clean and Build"/>
+      <action action="war:exploded" actionName="Exploded"/>
+    </actions>
+  </mavenBuild>
+  <includeLibraries></includeLibraries>
+  <libraryPaths></libraryPaths>
+  <externalLibraryPaths></externalLibraryPaths>
+  <rslPaths></rslPaths>
+  <intrinsics>
+    <element path="Library/AS3/frameworks/Flex4"/>
+    <element path="Library\AS3\frameworks\Flex4"/>
+    <element path="Library\AS3\frameworks\Flex4"/>
+  </intrinsics>
+  <library></library>
+  <modules/>
+  <compileTargets>
+    <compile path="src/EChartsRoyalePieChartWrapped.mxml"/>
+  </compileTargets>
+  <hiddenPaths></hiddenPaths>
+  <preBuildCommand>null</preBuildCommand>
+  <postBuildCommand alwaysRun="False">null</postBuildCommand>
+  <trustSVNCertificate>False</trustSVNCertificate>
+  <options>
+    <option isRoyale="True"/>
+    <option isPrimeFacesVisualEditor="False"/>
+    <option testMovieCommand=""/>
+    <option showHiddenPaths="False"/>
+    <option visualEditorExportPath=""/>
+    <option isDominoVisualEditor="False"/>
+    <option jdkType="default-java"/>
+    <option defaultBuildTargets=""/>
+    <option testMovie=""/>
+    <option isExportedToExistingSource="False"/>
+  </options>
+  <moonshineRunCustomization>
+    <option deviceConnectType="USB"/>
+    <option targetPlatform="5"/>
+    <option deviceSimulator="null"/>
+    <option urlToLaunch=""/>
+    <option launchMethod="Simulator"/>
+    <option customUrlToLaunch=""/>
+    <option webBrowser="null"/>
+    <option projectType="2"/>
+    <deviceSimulator>null</deviceSimulator>
+    <certAndroid>null</certAndroid>
+    <certIos>null</certIos>
+    <certIosProvisioning>null</certIosProvisioning>
+  </moonshineRunCustomization>
+</project>
